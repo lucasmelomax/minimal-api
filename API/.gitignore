@@ -1,0 +1,69 @@
+# ---- Arquivos do Visual Studio ----
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ---- Arquivos de build ----
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]og/
+[Ll]ogs/
+
+# ---- Arquivos de cache ----
+*.cache
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.dbmdl
+*.bak
+*.log
+
+# ---- Arquivos temporários do Visual Studio / Rider ----
+*.vsidx
+*.sln.iml
+.idea/
+*.sln.iml
+
+# ---- Configurações do sistema ----
+[Tt]humbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# ---- Arquivos de publicação ----
+publish/
+out/
+dist/
+
+# ---- Arquivos do NuGet ----
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+*.xml
+*.props
+*.targets
+
+# ---- Arquivos do Azure ----
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# ---- Arquivos do Docker ----
+*.dockerignore
+docker-compose.override.yml
+
+# ---- Testes ----
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# ---- Outros comuns ----
+*.tmp
+*.temp
+*.DS_Store
